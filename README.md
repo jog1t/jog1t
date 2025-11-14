@@ -8,8 +8,11 @@ jog1t pronounced as "yogit", similar to yogurt without the "ur".
 
 I'm an engineer with _a passion for coding, technology, and continuous learning._... Wait what? It does not matter. It's all about having fun while doing what you love, right?
 
+---
 
 ### !braindump
+
+Last updated: 14/11/2025
 
 Below you can find some of my ideas and projects that came to my mind. For various reasons they are not finished nor started. My brain, keeps dumping ideas and I can't stop thinking about them until I write them down somewhere. It's a great way to clear my mind and focus on the task at hand.
 
@@ -141,3 +144,21 @@ Status: Researched, not started.
 Similar to `Thronglets` from Netflix, and based on [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) paper, where players can create and manage their own civilization of AI agents. Players can design their agents' personalities, skills, and behaviors, and watch them interact with each other and the environment. Players can also influence the civilization's development by making decisions and providing resources. Treating the game as a "fish tank" where you can observe how AI agents behave and interact with each other over time. 
 
 This could be used for entertainment, education, or research purposes. Unfortunately running such a simulation would require a graphics card farm to run multiple LLM instances simultaneously, or a highly optimized LLM model that can run on a single machine with decent performance, or leveraging cloud computing resources to scale the simulation as needed (and lots of money). Please proof me wrong! Nonetheless it's still an interesting idea to explore.
+
+
+#### Factory Simulation
+
+Type: Game, web-based
+
+Status: Just an idea.
+
+Saw on TikTok and Twitter a lot of people complaining that the https://factoryio.com/ is paid. What if we do the similar thing, but just for funsies? I'd love to have some low level automation stuff with achievements, rewards and goals just for the sake of doing this.
+
+
+#### Server Driven UI
+
+Type: Frontend App Architecture
+
+Status: Researched.
+
+React has recenlty introduced [Server Components](https://react.dev/reference/rsc/server-components) that allows developers to do async operation inside their components. Those components are synced with the frontend. They can't use interactive hooks like useState or useEffect. What if we make an abstraction over Durable Objects that will allow you to write fully interactive Server Components?
